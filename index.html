@@ -362,7 +362,33 @@
       
         
           
-            
+            <h1 id="Cocoapods-相关操作"><a href="#Cocoapods-相关操作" class="headerlink" title="Cocoapods 相关操作"></a>Cocoapods 相关操作</h1><h2 id="Cocoapods-相关操作-1"><a href="#Cocoapods-相关操作-1" class="headerlink" title="Cocoapods 相关操作"></a>Cocoapods 相关操作</h2><ul>
+<li>查看第三方框架仓库源：<code>pod repo</code></li>
+<li>移除仓库源：<code>pod repo remove master</code></li>
+<li>添加仓库源：<code>pod repo add master http://git.oschina.net/akuandev/Specs.git</code> </li>
+<li>初始化（下载服务器中所有第三方框架信息，缓存到本地）：<code>pod setup</code></li>
+</ul>
+<h2 id="Cocoapods-几个重要路径"><a href="#Cocoapods-几个重要路径" class="headerlink" title="Cocoapods 几个重要路径"></a>Cocoapods 几个重要路径</h2><ul>
+<li>索引缓存路径：<code>~/Library/Caches/CocoaPods/</code></li>
+<li>pod 命令安装路径：<code>/usr/local/bin</code> </li>
+<li>pod 框架索引信息缓存路径：<code>/Users/Sangbill/.cocoapods/repos/master</code></li>
+</ul>
+<h2 id="Cocoapods-本地私有库使用"><a href="#Cocoapods-本地私有库使用" class="headerlink" title="Cocoapods 本地私有库使用"></a>Cocoapods 本地私有库使用</h2><blockquote>
+<ul>
+<li>参考 <code>/Users/Sangbill/Code/Bill_/LocalLib/</code></li>
+<li>着重看 ==testPerson== 里面的 ==spec== 文件，以及 ==TestProject== 里面的 ==profile== 文件</li>
+</ul>
+</blockquote>
+<h2 id="Cocoapods-远程私有库使用"><a href="#Cocoapods-远程私有库使用" class="headerlink" title="Cocoapods 远程私有库使用"></a>Cocoapods 远程私有库使用</h2><ul>
+<li>添加自己的私有库远程索引库</li>
+</ul>
+<h2 id="Cocoapods-工程模板库创建"><a href="#Cocoapods-工程模板库创建" class="headerlink" title="Cocoapods 工程模板库创建"></a>Cocoapods 工程模板库创建</h2><ul>
+<li><code>pod lib create XXXLib</code><ul>
+<li>两个单元测试相关的选项暂时选 ==none==</li>
+</ul>
+</li>
+</ul>
+
           
         
       

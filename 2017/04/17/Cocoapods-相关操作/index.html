@@ -87,14 +87,17 @@
 
 
 
+<meta name="description" content="Cocoapods 相关操作Cocoapods 相关操作 查看第三方框架仓库源：pod repo 移除仓库源：pod repo remove master 添加仓库源：pod repo add master http://git.oschina.net/akuandev/Specs.git  初始化（下载服务器中所有第三方框架信息，缓存到本地）：pod setup  Cocoapods 几个重要路">
 <meta name="keywords">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Cocoapods 相关操作">
 <meta property="og:url" content="http://yoursite.com/2017/04/17/Cocoapods-相关操作/index.html">
 <meta property="og:site_name" content="iSangbill's blog">
-<meta property="og:updated_time" content="2017-04-17T07:25:04.000Z">
+<meta property="og:description" content="Cocoapods 相关操作Cocoapods 相关操作 查看第三方框架仓库源：pod repo 移除仓库源：pod repo remove master 添加仓库源：pod repo add master http://git.oschina.net/akuandev/Specs.git  初始化（下载服务器中所有第三方框架信息，缓存到本地）：pod setup  Cocoapods 几个重要路">
+<meta property="og:updated_time" content="2017-04-17T10:18:48.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Cocoapods 相关操作">
+<meta name="twitter:description" content="Cocoapods 相关操作Cocoapods 相关操作 查看第三方框架仓库源：pod repo 移除仓库源：pod repo remove master 添加仓库源：pod repo add master http://git.oschina.net/akuandev/Specs.git  初始化（下载服务器中所有第三方框架信息，缓存到本地）：pod setup  Cocoapods 几个重要路">
 
 
 
@@ -357,7 +360,33 @@
       
 
       
-        
+        <h1 id="Cocoapods-相关操作"><a href="#Cocoapods-相关操作" class="headerlink" title="Cocoapods 相关操作"></a>Cocoapods 相关操作</h1><h2 id="Cocoapods-相关操作-1"><a href="#Cocoapods-相关操作-1" class="headerlink" title="Cocoapods 相关操作"></a>Cocoapods 相关操作</h2><ul>
+<li>查看第三方框架仓库源：<code>pod repo</code></li>
+<li>移除仓库源：<code>pod repo remove master</code></li>
+<li>添加仓库源：<code>pod repo add master http://git.oschina.net/akuandev/Specs.git</code> </li>
+<li>初始化（下载服务器中所有第三方框架信息，缓存到本地）：<code>pod setup</code></li>
+</ul>
+<h2 id="Cocoapods-几个重要路径"><a href="#Cocoapods-几个重要路径" class="headerlink" title="Cocoapods 几个重要路径"></a>Cocoapods 几个重要路径</h2><ul>
+<li>索引缓存路径：<code>~/Library/Caches/CocoaPods/</code></li>
+<li>pod 命令安装路径：<code>/usr/local/bin</code> </li>
+<li>pod 框架索引信息缓存路径：<code>/Users/Sangbill/.cocoapods/repos/master</code></li>
+</ul>
+<h2 id="Cocoapods-本地私有库使用"><a href="#Cocoapods-本地私有库使用" class="headerlink" title="Cocoapods 本地私有库使用"></a>Cocoapods 本地私有库使用</h2><blockquote>
+<ul>
+<li>参考 <code>/Users/Sangbill/Code/Bill_/LocalLib/</code></li>
+<li>着重看 ==testPerson== 里面的 ==spec== 文件，以及 ==TestProject== 里面的 ==profile== 文件</li>
+</ul>
+</blockquote>
+<h2 id="Cocoapods-远程私有库使用"><a href="#Cocoapods-远程私有库使用" class="headerlink" title="Cocoapods 远程私有库使用"></a>Cocoapods 远程私有库使用</h2><ul>
+<li>添加自己的私有库远程索引库</li>
+</ul>
+<h2 id="Cocoapods-工程模板库创建"><a href="#Cocoapods-工程模板库创建" class="headerlink" title="Cocoapods 工程模板库创建"></a>Cocoapods 工程模板库创建</h2><ul>
+<li><code>pod lib create XXXLib</code><ul>
+<li>两个单元测试相关的选项暂时选 ==none==</li>
+</ul>
+</li>
+</ul>
+
       
     </div>
 
@@ -448,8 +477,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.png"
@@ -493,6 +531,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Cocoapods-相关操作"><span class="nav-number">1.</span> <span class="nav-text">Cocoapods 相关操作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Cocoapods-相关操作-1"><span class="nav-number">1.1.</span> <span class="nav-text">Cocoapods 相关操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cocoapods-几个重要路径"><span class="nav-number">1.2.</span> <span class="nav-text">Cocoapods 几个重要路径</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cocoapods-本地私有库使用"><span class="nav-number">1.3.</span> <span class="nav-text">Cocoapods 本地私有库使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cocoapods-远程私有库使用"><span class="nav-number">1.4.</span> <span class="nav-text">Cocoapods 远程私有库使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cocoapods-工程模板库创建"><span class="nav-number">1.5.</span> <span class="nav-text">Cocoapods 工程模板库创建</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
